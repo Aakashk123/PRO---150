@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+
+    <body>
+
+        <a-scene background="color : grey">
+
+          <camera wasd-controls-enabled="false" position="0 8 20"> </camera>            
+
+
+
+          <!-- Assets Management -->
+
+          <a-assets>
+
+            <a-asset-item  id="side-obj" src="./tinker.obj"  ></a-asset-item>
+            <a-asset-item  id="side-mtl" src="./obj.mtl"  ></a-asset-item>
+            <a-asset-item  id="side-gltf" src="./PRO - 150.glb"  ></a-asset-item>
+
+          </a-assets>
+
+
+          <!-- Plane -->
+          <a-circle  id="floor" position="-0.4 -0.76 -25" radius="100" rotation="-90 0 0" shadow="recieve : true" visible="true" color="black">
+
+          </a-circle>
+        
+          
+          <!-- Creating Walls in the Rooms -->
+
+          <!-- Back -->
+          <a-box position="-0.4 -0.45 -25" color="white" width="50" height="50">
+          </a-box>
+          
+          <!-- Right -->
+          <a-box position="25 -0.45 -10" color="white" rotation="0 -90 0" width="39" height="50">
+          </a-box>
+          
+          <!-- Left -->
+          <a-box position="-25 -0.45 -10" color="white" rotation="0 90 0" width="39" height="50">
+          </a-box>
+          
+          
+          <!-- top -->
+          <a-box position="0 25 -24" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 -23" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+          <a-box position="0 25 -22" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+          <a-box position="0 25 -21" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+          <a-box position="0 25 -20" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+          <a-box position="0 25 -19" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+          <a-box position="0 25 -18" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+          <a-box position="0 25 -17" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+          <a-box position="0 25 -16" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 -15" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 -14" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 -13" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 -12" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 -11" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 -10" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 -9" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 -8" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 -7" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 -6" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 -5" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 -4" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 -3" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 -2" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 -1" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 0" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 1" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 2" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 3" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 4" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 5" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 6" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 7" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 8" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+        <a-box position="0 25 9" color="white" rotation="0 0 0" width="50" heigth="2">
+        </a-box>
+
+          
+          <!-- OBJ Models -->
+          
+<a-entity obj-model="obj: #side-obj; mtl: #side-mtl" position="-7 -0.76 -8" rotation="-90 0 0" scale="0.1 0.1 0.1">
+</a-entity>
+
+        </a-scene>
+
+    </body>
+
+</html>
